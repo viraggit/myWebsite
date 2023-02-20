@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    margin-top: 50px;
+    font-size: 5.625rem;
+    margin-bottom: 0;
+    color: #3bbebe;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #3bbebe;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #748b8b;
+    border-width: 5px;
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;;
+}
+#topContainer{
+    background-color: #c5e6e0;
+    position: relative;
+    padding-top: 100px;
+}
+.middleContainer{
+    background-color: #dde1e0;
+    margin-bottom: 0;
+    padding-bottom: 80px;
+
+}
+.bottomContainer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #11999E;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.topCloud{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+.mountain{
+
+}
+.bottomCloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.pic{
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+}
+.develope{
+    margin-right: 30px;
+    float: left;
+    width: 25%;
+}
+.learn{
+    margin-left: 30px;
+    float: right;
+    width: 25%;
+}
+.footer-link{
+    color: #c5e6e0;
+    margin: 100px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.intro{
+    width: 30%;
+    line-height: 2;
+}
+.touch{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.contact-me{
+    margin-bottom: 0;
+}
+.copy{
+    position: relative;
+    top: 20px;
+    color: white;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
